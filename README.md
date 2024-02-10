@@ -3,6 +3,6 @@
 ## Installation
 
 ```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts
-helm search k8s-at-home
+helm repo add andrelote-k8s https://andrescabrera.github.io/charts
+helm search andrelote-k8s
 ```
