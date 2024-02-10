@@ -87,7 +87,7 @@ N/A
 
 ## Changelog
 
-### Version 4.4.2
+### Version 4.5.0
 
 #### Added
 
@@ -95,7 +95,7 @@ N/A
 
 #### Changed
 
-* Upgraded `common` chart dependency to version 4.5.2
+* Upgraded docker image to version 5.13.23
 
 #### Fixed
 

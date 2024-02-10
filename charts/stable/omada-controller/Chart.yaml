@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: '4.3'
+appVersion: '5.13.23'
 description: Omada enables the network administrators to monitor and manage all the Omada products in the network with a centralized management platform.
 name: omada-controller
-version: 4.4.2
+version: 4.5.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - omada-controller
@@ -13,8 +13,8 @@ sources:
   - https://github.com/mbentley/docker-omada-controller
   - https://github.com/k8s-at-home/charts/tree/master/charts/omada-controller
 maintainers:
-  - name: charlie-haley
-    email: charlie-haley@users.noreply.github.com
+  - name: andres-cabrera
+    email: andres-cabrera@users.noreply.github.com
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
@@ -22,4 +22,4 @@ dependencies:
 annotations:
   artifacthub.io/changes: |-
     - kind: changed
-      description: Upgraded `common` chart dependency to version 4.5.2
+      description: Upgraded docker image to version 5.13.23
