@@ -29,7 +29,7 @@ entries:
     - https://github.com/k8s-at-home/charts/tree/master/charts/omada-controller
     urls:
     - https://github.com/k8s-at-home/charts/releases/download/omada-controller-4.4.2/omada-controller-4.4.2.tgz
-    version: 4.4.2
+    version: 4.5.0
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
@@ -629,64 +629,4 @@ entries:
     urls:
     - https://github.com/k8s-at-home/charts/releases/download/omada-controller-1.0.0/omada-controller-1.0.0.tgz
     version: 1.0.0
-  ombi:
-  - annotations:
-      artifacthub.io/changes: |-
-        - kind: changed
-          description: Upgraded `common` chart dependency to version 4.5.2
-    apiVersion: v2
-    appVersion: 4.16.12
-    created: "2022-08-02T14:41:48.93012154Z"
-    dependencies:
-    - name: common
-      repository: https://library-charts.k8s-at-home.com
-      version: 4.5.2
-    description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
-    digest: a0f8a226acbe660caae57d73bf705ca0c51478f96baf0cfb11faa6053f55a16b
-    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/ombi
-    icon: https://github.com/tidusjar/Ombi/blob/feature/v4/src/Ombi/wwwroot/images/ms-icon-310x310.png?raw=true
-    keywords:
-    - ombi
-    - plex
-    - emby
-    - sonarr
-    - radarr
-    - couchpotato
-    kubeVersion: '>=1.16.0-0'
-    maintainers:
-    - email: jeff@billimek.com
-      name: billimek
-    name: ombi
-    sources:
-    - https://github.com/tidusjar/Ombi
-    - https://hub.docker.com/r/linuxserver/ombi
-    urls:
-    - https://github.com/k8s-at-home/charts/releases/download/ombi-11.5.2/ombi-11.5.2.tgz
-    version: 11.5.2
-  - annotations:
-      artifacthub.io/changes: |-
-        - kind: changed
-          description: Upgraded `common` chart dependency to version 4.5.1
-    apiVersion: v2
-    appVersion: 4.16.12
-    created: "2022-08-02T12:27:01.463843942Z"
-    dependencies:
-    - name: common
-      repository: https://library-charts.k8s-at-home.com
-      version: 4.5.1
-    description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
-    digest: 10a6895e3c1791b6e309fea9b25fd855802e9d834247c6284a89e044a9bbdab3
-    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/ombi
-    icon: https://github.com/tidusjar/Ombi/blob/feature/v4/src/Ombi/wwwroot/images/ms-icon-310x310.png?raw=true
-    keywords:
-    - ombi
-    - plex
-    - emby
-    - sonarr
-    - radarr
-    - couchpotato
-    kubeVersion: '>=1.16.0-0'
-    maintainers:
-    - email: jeff@billimek.com
-      name: billimek
 generated: "2022-08-19T23:24:28.714949325Z"
