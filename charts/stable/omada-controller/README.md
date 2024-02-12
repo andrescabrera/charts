@@ -1,6 +1,6 @@
 # omada-controller
 
-![Version: 4.4.2](https://img.shields.io/badge/Version-4.4.2-informational?style=flat-square) ![AppVersion: 4.3](https://img.shields.io/badge/AppVersion-4.3-informational?style=flat-square)
+![Version: 4.5.0](https://img.shields.io/badge/Version-4.5.0-informational?style=flat-square) ![AppVersion: 4.3](https://img.shields.io/badge/AppVersion-4.3-informational?style=flat-square)
 
 Omada enables the network administrators to monitor and manage all the Omada products in the network with a centralized management platform.
 
@@ -9,7 +9,7 @@ Omada enables the network administrators to monitor and manage all the Omada pro
 ## Source Code
 
 * <https://github.com/mbentley/docker-omada-controller>
-* <https://github.com/k8s-at-home/charts/tree/master/charts/omada-controller>
+* <https://github.com/andrescabrera/charts/tree/master/charts/stable/omada-controller>
 
 ## Requirements
 
@@ -24,9 +24,9 @@ Kubernetes: `>=1.16.0-0`
 ## TL;DR
 
 ```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
+helm repo add andrelote-k8s https://andrescabrera.github.io/charts/
 helm repo update
-helm install omada-controller k8s-at-home/omada-controller
+helm install omada-controller andrelote-k8s/omada-controller
 ```
 
 ## Installing the Chart
@@ -34,7 +34,7 @@ helm install omada-controller k8s-at-home/omada-controller
 To install the chart with the release name `omada-controller`
 
 ```console
-helm install omada-controller k8s-at-home/omada-controller
+helm install omada-controller andrelote-k8s/omada-controller
 ```
 
 ## Uninstalling the Chart
@@ -56,8 +56,8 @@ Specify each parameter using the `--set key=value[,key=value]` argument to `helm
 
 ```console
 helm install omada-controller \
-  --set env.TZ="America/New York" \
-    k8s-at-home/omada-controller
+  --set env.TZ="America/Argentina/Buenos_Aires" \
+    andrelote-k8s/omada-controller
 ```
 
 Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
